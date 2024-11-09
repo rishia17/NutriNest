@@ -1,0 +1,9 @@
+.nav-link {
+    color: black; /* Default color */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link:hover {
+    color: white; /* Color on hover */
+  }
+  

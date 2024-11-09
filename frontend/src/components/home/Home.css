@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Tektur:wght@600&family=Victor+Mono:wght@500&display=swap');
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+
+
+.logo img {
+    width: 100px;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: 2px solid #82c341;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.search button {
+    background-color: #82c341;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #e7f0e5;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #5c9a41;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hero-text .btn {
+    background-color: #82c341;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hero-text .btn:hover {
+    background-color: #6b8d34;
+}
+
+.hero-text .visit-us {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 15px;
+}
+/* New style for NutriNext text */
+.hero-text .brand-name {
+    font-size: 72px; /* Large font size for impact */
+    color: #2c6e28; /* A deeper green for emphasis */
+    font-weight: bold;
+    font-family: 'Lexend', serif; /* Uses Lora font for elegance */
+    margin-bottom: 20px;
+}
+
+/* Updated hero image style */
+.hero-image img {
+    width: 450px; /* Slightly larger image */
+    border-radius: 20px; /* Softer corner radius */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
