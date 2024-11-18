@@ -1,0 +1,63 @@
+###user registration
+post http://localhost:4000/user-api/user
+Content-Type: application/json
+
+{
+    
+    "name":"ravi2",
+    "password":"ravi1",
+    "email":"ravi@gmail.com",
+     "gender": "male",
+    "height": 23,
+    "weight": 451,
+    "streakCount": 2,
+    "protein": 12,
+    "calcium": 10,
+    "fat": 10,
+    "carbs": 8,
+    "vitamins": 5
+}
+###user login req
+
+post http://localhost:4000/food-api/newfood
+Content-Type: application/json
+
+{
+    "dateId":{{$timestamp}},
+    "name":"ravi2",
+    "protein":3,
+    "calcium":6,
+    "fat":3,
+    "carbs":7,
+    "vitamins":3,
+    "balanceScore":10
+}
+
+### add new  food
+
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "name":"ravi",
+    "password":"ravi1"
+}
+
+###
+PUT http://localhost:4000/user-api/edit
+Content-Type: application/json
+
+{
+    "name": "ravi",
+    "newPassword": "newPassword1", 
+    "email": "ravi_updated@gmail.com",
+    "gender": "male",
+    "height": 25,
+    "weight": 460,
+    "streakCount": 3,
+    "protein": 15,
+    "calcium": 12,
+    "fat": 8,
+    "carbs": 10,
+    "Vitamins": 6
+}

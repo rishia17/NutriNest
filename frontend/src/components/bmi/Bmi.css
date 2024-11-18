@@ -1,0 +1,64 @@
+.display-6 {
+    font-weight: 700;
+    color: #28a745;
+  }
+  
+  /* Drop Area Styles */
+  .drop-area {
+    cursor: pointer;
+    border: 2px dashed #28a745;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #f1f8f5;
+    color: #6c757d;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-bottom: 1.5rem; /* Add space below the drop area */
+  }
+  
+  .drop-area:hover {
+    background-color: #e0f2e9;
+    border-color: #239636;
+  }
+  
+  .uploaded-image {
+    max-width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  
+  /* Button Styles */
+  .btn-success {
+    background: linear-gradient(145deg, #28a745, #239636);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0px 4px 10px rgba(40, 167, 69, 0.3);
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(145deg, #239636, #1d7a2f);
+    transform: translateY(-3px);
+  }
+  
+  /* Output Styles */
+  .output {
+    border: 1px solid #d1e3dd;
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .output p {
+    margin: 0;
+    line-height: 1.6;
+  }

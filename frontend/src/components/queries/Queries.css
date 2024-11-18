@@ -1,0 +1,62 @@
+.mainhelp {
+    font-size: 72px;
+    color: #2c6e28;
+    font-weight: bold;
+    font-family: 'Lexend', serif;
+    margin-bottom: 20px;
+}
+
+.queriesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.queriesForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.queriesInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.queriesButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.queriesResponse {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.responseItem > div {
+    text-align: left;
+}
+
+.record-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.recording {
+    background-color: #d9534f; /* Red for recording */
+}

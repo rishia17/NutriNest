@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Tektur:wght@600&family=Victor+Mono:wght@500&display=swap');
+.dashwel{
+    font-size: 72px; /* Large font size for impact */
+    color: #212316; /* A deeper green for emphasis */
+    font-weight: bold;
+    font-family: 'Lexend', serif; /* Uses Lora font for elegance */
+    margin-bottom: 20px;
+}
+.heiweitxt{
+    font-size: 22px; /* Large font size for impact */
+    color: #212316; /* A deeper green for emphasis */
+    font-weight: bold;
+    font-family: 'Lexend', serif;    
+}
